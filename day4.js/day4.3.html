@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>colors</title>
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+    </head>
+    <body>
+        <h1 id="id2"></h1>
+        <h2 id="id4"></h2>
+        <h3 id="id5"></h3>
+        <h4 id="id3"></h4>
+        <h5 id="id7"></h5>
+        <script> 
+           const colors=["Blue", "Black", " Red", "Yellow", "green"];
+           document.getElementById("id2").innerText=colors.toString();
+           colors.pop();
+           document.getElementById("id3").innerHTML=colors;
+           colors.push("Orange");
+           document.getElementById("id4").innerHTML=colors;
+           colors.shift();
+           document.getElementById("id5").innerHTML=colors;
+           colors.unshift("White");
+        </script>
+    </body>
+
+</html>

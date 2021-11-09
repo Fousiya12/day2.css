@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple Interest</title>
+    </head>
+    <body>
+        <h1 id="id1"></h1>
+        <h2 id="id2"></h2>
+        <h3 id="id3"></h3>
+        <h4 id="id4"></h4>
+        <h5 id="id5"></h5>
+        <h6 id="id6"></h6>
+        <h7 id="id7"></h7>
+         <script>
+        function simpleinterest(p,n,r)
+        {
+             si=((p*n*r)/100);
+            return si;
+        }
+        let sr=simpleinterest(500,2,5);
+        let p=500;
+        let sip=`THE SIMPLE INTEREST = ${sr} PRINCIPLE AMOUNT= ${p}`;
+        document.getElementById("id1").innerHTML="THE SIMPLE INTEREST IS"+"  "+sr;
+        document.getElementById("id2").innerHTML=sip;
+        </script>
+        <script>
+        function col();
+        {
+            const colors=["Blue", "Black", " Red", "Yellow", "green"];
+            document.getElementById("id3").innerText=colors;
+            colors.pop();
+            document.getElementById("id4").innerHTML=colors;
+            colors.push("Orange");
+            document.getElementById("id5").innerHTML=colors;
+            colors.shift();
+            document.getElementById("id6").innerHTML=colors;
+            colors.unshift("White");
+         }
+            document.getElementById("id7").innerHTML=col();
+        </script>
+    </body>
+</html>

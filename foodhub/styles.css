@@ -1,0 +1,11 @@
+body{background-color:white; color: orangered;}
+header{background-color:black; font-size: larger; font-family: cursive; text-align: center;}
+nav{text-align: center;color: orangered; }
+section{background-color:black;text-align: center;color: orangered;} 
+p{text-align: center;background-color:black ;}
+h1,h2,h3,h4,h5,h6{text-align: center; font-size: medium;}p.dotted {border-style: dotted;}
+p.mix{border-style: dotted dashed solid double;margin: 25px 50px 75px;}
+form{text-align: center; border-style: dashed;margin:25px 50px 75px;}
+ul{text-align: center;border-style: dotted;}
+img{text-align: center;}
+footer{text-align: center;background-color:black;}
